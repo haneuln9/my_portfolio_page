@@ -64,3 +64,50 @@ nav .nav_right a:last-child {margin-right:0;}
     0% {transform:rotate(0);}
     100% {transform:rotate(130deg);}
 }
+/*---------------------------------------------------------------------------------------*/
+.second_page {
+    width:calc(100% - 30px);
+    display: flex;
+}
+.second_page .my_profile {
+    background:lightcoral;
+    margin:85px 57px 0 57px;
+}
+.second_page .my_profile h1 {
+    font-family: 'MaruBuri','Noto Sans KR', sans-serif;
+    letter-spacing:-0.2px;
+    font-weight:500;
+    font-size:1.938rem;
+    padding-bottom:20px;
+}
+.second_page .my_profile h1 span {
+    font-family: 'MaruBuri','Noto Sans KR', sans-serif;
+    padding-left:5px;
+    letter-spacing:-0.2px;
+    font-weight:500;
+    font-size:1rem;
+}
+.second_page .my_profile p {
+    font-family: 'MaruBuri','Noto Sans KR', sans-serif;
+    font-size:1rem;
+    font-weight:500;
+    letter-spacing:-0.2px;
+    padding-bottom:20px;
+}
+.second_page .my_profile p:last-child {padding-bottom:0;}
+.second_page .my_img {}
+.second_page .my_img img {}
+/*-----------------------------------------------------------------------------*/
+.second_page .introduction {}
+.second_page .introduction .in_1 {}
+.second_page .introduction .in_1 h1 {}
+.second_page .introduction .in_1 p {}
+.second_page .introduction .in_2 {}
+.second_page .introduction .in_2 .license {}
+.second_page .introduction .in_2 .license dt {}
+.second_page .introduction .in_2 .license dd {}
+.second_page .introduction .in_3 {}
+.second_page .introduction .in_3 .skills {}
+.second_page .introduction .in_3 .skills .skills_img {}
+.second_page .introduction .in_3 .skills .skills_img img {}
+.second_page .introduction .in_3 .skills .skills_name {}
