@@ -1,0 +1,66 @@
+nav {
+    position: fixed;
+    padding:20px 60px;
+    left:auto;
+    top:0;
+    background:#f1f1f1;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+nav .nav_left {}
+nav .nav_left a {
+    font-weight: 600;
+}
+nav .nav_right{}
+nav .nav_right a {
+    margin-right:20px;
+    font-weight: 600;
+}
+nav .nav_right a:last-child {margin-right:0;}
+.first_welcome .down_arrow {
+    margin:0 auto;
+}
+.first_welcome .down_arrow {
+    animation:down_move 1s linear alternate infinite ;
+}
+@keyframes down_move {
+    0% {transform:translateY(0);}
+    100% {transform:translateY(-30px);}
+}
+/*-----------------------------------------------------------*/
+.first_welcome {
+    padding:70px 0 90px 0; 
+    /* background:lightblue; */
+    margin:0 auto;
+    width:calc(100% - 60px);
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.first_welcome .welcome_img {
+    margin-top:290px;
+    text-align: center;}
+.first_welcome .welcome_img img {
+    animation:move_welcome 5s linear alternate infinite;
+}
+.first_welcome .welcome_txt {
+    margin-top: 104px;
+}
+.first_welcome .welcome_txt h1 {
+    font-family: 'Pretendard' ,'Noto Sans KR', sans-serif;
+    font-weight:500;
+    font-size:3.125rem;
+    letter-spacing:-0.5px;
+}
+.first_welcome .welcome_txt p {
+    font-family: 'Pretendard' ,'Noto Sans KR', sans-serif;
+    font-size:1.438rem;
+    letter-spacing:-0.5px;
+    margin-top:20px;
+    font-weight:500;
+}
+@keyframes move_welcome {
+    0% {transform:rotate(0);}
+    100% {transform:rotate(130deg);}
+}
