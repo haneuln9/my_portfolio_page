@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>welcome | NEUL_Portfolio</title>
-    <!--스타일-->
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/index.css">
     <!--폰트-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
     <link href="https://webfontworld.github.io/naver/MaruBuri.css" rel="stylesheet">
+    <!--스타일-->
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
-    <nav>
-        <div class="nav_left">
-            <a href="#">Ha Neul's</a>
+    <header>
+            <h1><a href="#">Ha Neul's</a></h1>
+        <div class="header_right">
+            <!-- <button class="tab" type="button">ABOUT</button>
+            <button class="tab" type="button">WEB</button>
+            <button class="tab" type="button">BANNER</button> -->
+            <a href="#section_num1" id="tab_sn1">ABOUT</a>
+            <a href="#section_num2" id="tab_sn2">WEB</a>
+            <a href="#section_num3" id="tab_sn3">BANNER</a>
         </div>
-        <div class="nav_right">
-            <a href="#">ABOUT</a>
-            <a href="#">WEB</a>
-            <a href="#">BANNER</a>
-        </div>
-        
-    </nav>
+    </header>
     <div class="first_welcome">
         <div class="welcome_img">
             <img src="./img/welcome.png" alt="">
@@ -36,57 +36,198 @@
             <img src="./img/down_arrow.png" alt="">
         </div>
     </div>
-    <section class="second_page">
-        <div class="my_profile">
-            <h1>남하늘<span>Nam Haneul</span></h1>
-            <p>1998.01.21</p>
-            <p>010.7712.9196</p>
-            <p>sky9196@naver.com</p>
-        </div>
-        <div class="my_img">
-            <img src="./img/my_img.png" alt="">
-        </div>
-        <div class="introduction">
-            <div class="in_1">
-                <h1>Personality</h1>
-                <p>여러가지 새로운 도전하는 것을즐기며 성장하기 위해 노력합니다.</p>
-                <p>부정적이지 않고 긍정적으로 생각하며 밝은 성격을 가지고 있습니다.</p>
-                <p>다른 사람의 도움을 받는 것도 배움의 일부로 생각하며 경청하는 성격입니다.</p>
+    <div class="section_all">
+        <section class="second_page" id="section_num1"><!--소개 페이지-->
+            <div class="my_profile">
+                <h1>남하늘<span>Nam Haneul</span></h1>
+                <p>1998.01.21</p>
+                <p>010.7712.9196</p>
+                <p>sky9196@naver.com</p>
             </div>
-            <div class="in_2">
-                <h1>LICENSE</h1>
-                <dl class="license">
-                    <dt>2015.07</dt>
-                    <dd>컴퓨터그래픽스 운용기능사 취득</dd>
-                    <dt>2021.02</dt>
-                    <dd>보육교사3급 취득</dd>
-                    <dt>2021.05</dt>
-                    <dd>운전면허 2종 보통</dd>
-                </dl>
+            <div class="my_img">
+                <!-- <img src="./img/my_img.png" alt=""> -->
             </div>
-            <div class="in_3">
-                <div class="skills1 skills">
-                    <p class="skills_img"><img src="./img/skills1.png" alt=""></p>
-                    <p class="skills_name">HTML</p>
+            <div class="introduction_all">
+                <div class="introduction">
+                    <div class="in_1">
+                        <h1>Personality</h1>
+                        <p>여러가지 새로운 도전하는 것을즐기며 성장하기 위해 노력합니다.</p>
+                        <p>부정적이지 않고 긍정적으로 생각하며 밝은 성격을 가지고 있습니다.</p>
+                        <p>다른 사람의 도움을 받는 것도 배움의 일부로 생각하며 경청하는 성격입니다.</p>
+                    </div>
+                    <div class="in_2">
+                        <h1>LICENSE</h1>
+                        <dl class="license">
+                            <dt>2015.07</dt>
+                            <dd>컴퓨터그래픽스 운용기능사 취득</dd>
+                        </dl>
+                        <dl class="license">
+                            <dt>2021.02</dt>
+                            <dd>보육교사3급 취득</dd>
+                        </dl>
+                        <dl class="license">
+                            <dt>2021.05</dt>
+                            <dd>운전면허 2종 보통</dd>
+                        </dl>
+                    </div>
+                    <div class="in_3">
+                        <h1>SKILLS</h1>
+                        <div class="in_3_skills">
+                            <div class="skills1 skills">
+                                <p class="skills_img"><img src="./img/skills1.png" alt=""></p>
+                                <p class="skills_name">HTML</p>
+                            </div>
+                            <div class="skills2 skills">
+                                <p class="skills_img"><img src="./img/skills2.png" alt=""></p>
+                                <p class="skills_name">CSS</p>
+                            </div>
+                            <div class="skills3 skills">
+                                <p class="skills_img"><img src="./img/skills3.png" alt=""></p>
+                                <p class="skills_name">Javascript</p>
+                            </div>
+                            <div class="skills4 skills">
+                                <p class="skills_img"><img src="./img/skills4.png" alt=""></p>
+                                <p class="skills_name">Photoshop</p>
+                            </div>
+                            <div class="skills5 skills">
+                                <p class="skills_img"><img src="./img/skills5.png" alt=""></p>
+                                <p class="skills_name">Figma</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="skills2 skills">
-                    <p class="skills_img"><img src="./img/skills2.png" alt=""></p>
-                    <p class="skills_name">CSS</p>
+            </div>    
+        </section>
+        <section class="third_page" id="section_num2"><!--웹 리디자인페이지-->
+            <div class="third_title">
+                <h1>WEB : <span>Re Design</span></h1>
+            </div>
+            <div class="web_redesign_page">
+                <div class="red_pluse web_page">
+                    <div class="re_img_box red_img_box">
+                        <span class=" red_span"></span>
+                        <a href="http://haneuln9.pe.kr/red_pluse/index.html" class="re_img" target="_blank">
+                            <img src="./img/red_pluse_img.png" alt="">
+                        </a>
+                    </div>
+                    <div class="re_txt">
+                        <h2>대한 적십자사<span>(FULLPAGE)</span></h2>
+                        <div class="re_time">
+                            <dl class="re_day">
+                                <dt>제작 기간</dt>
+                                <dd>33시간 개인 100% 작업</dd>
+                            </dl>
+                            <dl class="re_page">
+                                <dt>제작 페이지</dt>
+                                <dd>main, sub(index/후원하기/login) 총 3p</dd>
+                            </dl>
+                        </div>
+                        <div class="re_btn">
+                            <button type="button" id="re_btn_1"><a href="https://www.figma.com/file/tq4Zo8W5RAPYnGzNhv1Msx/%EB%8C%80%ED%95%9C-%EC%A0%81%EC%8B%AD%EC%9E%90?type=design&node-id=0%3A1&mode=design&t=uwiC2zsHTKiAd4b1-1" target="_blank">
+                                와이어 프레임 / 프로토타입 보기</a></button>
+                            <span></span>
+                            <button type="button" id="re_btn_2"><a href="https://www.figma.com/proto/MKJFPHT8YV8ZCrKyqIqQ1m/%EB%8C%80%ED%95%9C%EC%A0%81%EC%8B%AD%EC%9E%90-%EA%B2%B0%EA%B3%BC-%EA%B8%B0%ED%9A%8D%EC%84%9C?page-id=0%3A1&type=design&node-id=1-2&viewport=708%2C498%2C0.07&t=R5zGFr4JpqWdCxQv-1&scaling=min-zoom&mode=design" target="_blank">
+                                기획서 보기</a></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="skills3 skills">
-                    <p class="skills_img"><img src="./img/skills3.png" alt=""></p>
-                    <p class="skills_name">Javascript</p>
+                <div class="adidas web_page">
+                    <div class="re_img_box adidas_img_box">
+                        <span class=" adidas_span"></span>
+                        <a href="http://haneuln9.pe.kr/portfolio_haneul/index.html" class="re_img" target="_blank">
+                            <img src="./img/adidas_img.png" alt="">
+                        </a>
+                    </div>
+                    <div class="re_txt">
+                        <h2>아디다스</h2>
+                        <div class="re_time">
+                            <dl class="re_day">
+                                <dt>제작 기간</dt>
+                                <dd>40시간 개인 100% 작업</dd>
+                            </dl>
+                            <dl class="re_page">
+                                <dt>제작 페이지</dt>
+                                <dd>main, sub(index/product/item) 총 3p</dd>
+                            </dl>
+                        </div>
+                        <div class="re_btn">
+                            <button type="button" id="re_btn_1"><a href="https://www.figma.com/file/bVNoHBWAXSwVBz4QyPN9RC/%EC%95%84%EB%94%94%EB%8B%A4%EC%8A%A4-%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8?type=design&node-id=0%3A1&mode=design&t=G1D1z4ZgeeN0EbvE-1" target="_blank">
+                                와이어 프레임 / 프로토타입 보기</a></button>
+                            <span></span>
+                            <button type="button" id="re_btn_2" ><a href="https://www.figma.com/proto/uAxhsZOObckqEm50CpzArK/%EC%95%84%EB%94%94%EB%8B%A4%EC%8A%A4-%EA%B2%B0%EA%B3%BC-%EA%B8%B0%ED%9A%8D%EC%84%9C?page-id=0%3A1&type=design&node-id=43-19&viewport=-144%2C-219%2C0.06&t=CiiWCzZ6wFiYWBxL-1&scaling=min-zoom&mode=design" target="_blank">
+                                기획서 보기</a></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="skills4 skills">
-                    <p class="skills_img"><img src="./img/skills4.png" alt=""></p>
-                    <p class="skills_name">Photoshop</p>
-                </div>
-                <div class="skills5 skills">
-                    <p class="skills_img"><img src="./img/skills5.png" alt=""></p>
-                    <p class="skills_name">Figma</p>
+                <div class="randys web_page">
+                    <div class="re_img_box randys_img_box">
+                        <span class="randys_span"></span>
+                        <a href="http://haneuln9.pe.kr/portfolio_randys/index.html" class="re_img" target="_blank">
+                            <img src="./img/randys_img.png" alt="">
+                        </a>
+                    </div>
+                    <div class="re_txt">
+                        <h2>랜디스 도넛</h2>
+                        <div class="re_time">
+                            <dl class="re_day">
+                                <dt>제작 기간</dt>
+                                <dd>40시간 개인 100% 작업</dd>
+                            </dl>
+                            <dl class="re_page">
+                                <dt>제작 페이지</dt>
+                                <dd>main , sub(index/map/item) 총 3p</dd>
+                            </dl>
+                        </div>
+                        <div class="re_btn">
+                            <button type="button" id="re_btn_1"><a href="https://www.figma.com/file/xVCrIwN5eDN882FLVhIZ9X/%EB%9E%9C%EB%94%94%EC%8A%A4-%EB%8F%84%EB%84%9B?type=design&node-id=0%3A1&mode=design&t=2eOdDE0CJ3qKvKzP-1" target="_blank">
+                                와이어 프레임 / 프로토타입 보기</a></button>
+                            <span></span>
+                            <button type="button" id="re_btn_2"><a href="https://www.figma.com/proto/Bb0KUQO2qUYFMv22vQiGw4/%EB%9E%9C%EB%94%94%EC%8A%A4-%EB%8F%84%EB%84%9B-%EA%B2%B0%EA%B3%BC-%EA%B8%B0%ED%9A%8D%EC%84%9C?page-id=0%3A1&type=design&node-id=1-2&viewport=708%2C572%2C0.08&t=VCepf3JHqmM2GJLP-1&scaling=min-zoom&mode=design" target="_blank">
+                                기획서 보기</a></button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>    
-    </section>
+        </section>
+        <section class="fourth_page" id="section_num3"><!--베너 페이지-->
+            <div class="fourth_title">
+                <h1>Banner<span> Design</span></h1>
+            </div>
+            <div class="banner_page">
+                <div class="banner1 banner">
+                    <a href="#" target="_blank" class="banner_img"><img src="./img/banner1.png" alt=""></a>
+                </div>
+                <div class="banner2 banner">
+                    <a href="#" target="_blank" class="banner_img"><img src="./img/banner1.png" alt=""></a>
+                </div>
+                <div class="banner3 banner">
+                    <a href="#" target="_blank" class="banner_img"><img src="./img/banner1.png" alt=""></a>
+                </div>
+                <div class="banner4 banner">
+                    <a href="#" target="_blank" class="banner_img"><img src="./img/banner1.png" alt=""></a>
+                </div>
+                <div class="banner5 banner">
+                    <a href="#" target="_blank" class="banner_img"><img src="./img/banner1.png" alt=""></a>
+                </div>
+                <div class="banner6 banner">
+                    <a href="#" target="_blank" class="banner_img"><img src="./img/banner1.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <section class="five_page"><!--sns 디자인 페이지-->
+            <div class="five_title">
+                <h1>SNS<span> Design</span></h1>
+            </div>
+            <div class="sns_design">
+                <a href="#" target="_blank" class="sns_img"><img src="./img/sns1.png" alt=""></a>
+                <a href="#" target="_blank" class="sns_img"><img src="./img/sns1.png" alt=""></a>
+                <a href="#" target="_blank" class="sns_img"><img src="./img/sns1.png" alt=""></a>
+                <a href="#" target="_blank" class="sns_img"><img src="./img/sns1.png" alt=""></a>
+                <a href="#" target="_blank" class="sns_img"><img src="./img/sns1.png" alt=""></a>
+                <a href="#" target="_blank" class="sns_img"><img src="./img/sns1.png" alt=""></a>
+            </div>
+        </section>
+    </div>
+    <script src="./js/index.js"></script>
 </body> 
 </html>
