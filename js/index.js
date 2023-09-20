@@ -18,3 +18,26 @@
 // re_img.addEventListener('mouseout',function(e){
 //     re_img_txt.style.display = 'none'
 // })
+const bannerImg = document.querySelectorAll ('.banner_page .banner_img')
+const subImg = document.querySelectorAll ('.banner_sub .banner_sub_img ')
+console.log(bannerImg,subImg)
+for(let i of subImg){i.style.display = 'none'}
+bannerImg.forEach(function(t, i , a){
+    t.addEventListener('click',function(e){
+        e.preventDefault()
+        for(let i of subImg){i.style.display = 'none'}
+        subImg[i].style.display = 'block'
+    })
+})
+subImg.forEach(function(t, i){
+    t.addEventListener('mouseout',function(e){
+        e.preventDefault()
+        t.style.display= 'none'
+    })
+})
+subImg.forEach(function(t, i){
+    t.addEventListener('click',function(e){
+        e.preventDefault()
+        t.style.display= 'none'
+    })
+})
