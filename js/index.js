@@ -41,3 +41,31 @@ subImg.forEach(function(t, i){
         t.style.display= 'none'
     })
 })
+const snsImg = document.querySelectorAll ('.sns_design .sns_img')
+const snsSub = document.querySelectorAll ('.sub_sns .sub_sns_img')
+const sbox = document.querySelector ('.sub_sns')
+console.log(snsImg, snsSub, sbox)
+sbox.style.display = 'none'
+for(let i of snsSub){i.style.display = 'none'}
+snsImg.forEach(function(t,i,a){
+    t.addEventListener('click',function(e){
+        e.preventDefault()
+        sbox.style.display = 'block'
+        for(let i of snsSub){i.style.display = 'none'}
+        snsSub[i].style.display = 'block'
+    })
+})
+snsSub.forEach(function(t, i){
+    t.addEventListener('mouseout',function(e){
+        e.preventDefault()
+        t.style.display= 'none'
+        sbox.style.display = 'none'
+    })
+})
+snsSub.forEach(function(t, i){
+    t.addEventListener('click',function(e){
+        e.preventDefault()
+        t.style.display= 'none'
+        sbox.style.display = 'none'
+    })
+})
