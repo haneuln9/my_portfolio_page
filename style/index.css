@@ -400,6 +400,44 @@ header .header_right a:last-child {margin-right:0;}
     color:#aaa;
 }
 /*-------------------------------------------------------------------*/
+.details_page {
+    background:url(../img/main_bg.png) no-repeat;
+}
+.details_page .details_title {
+    padding:200px 0 0 160px ;
+}
+.details_page .details_title h1 {
+    font-family: 'MaruBuri','Noto Sans KR', sans-serif;
+    font-size:3.750rem;
+    font-weight:500;
+    letter-spacing:-0.5px;
+    margin-bottom:100px;
+    color:#fff;
+}
+.details_page .details_title h1 span {
+    font-family: 'MaruBuri','Noto Sans KR', sans-serif;
+    font-weight:500;
+    letter-spacing:-0.5px;
+    font-size:3.750rem;
+    color:#000
+}
+.details_page .details_con {
+    width:1520px;
+    margin-left:325px;
+    display:flex;
+    flex-flow:row wrap;
+    position: relative;
+}
+.details_page .details_con .details {}
+.details_page .details_con .details .details_img {}
+.details_page .details_con .details .details_img img {
+    width:377px; height:430px;
+    filter: grayscale(100%);
+}
+.details_page .details_con .details .details_img img:hover {
+    filter:none;
+}
+/*-------------------------------------------------------------------------*/
 .fourth_page {
     background:url(../img/main_bg.png) no-repeat;
 }
@@ -497,7 +535,7 @@ header .header_right a:last-child {margin-right:0;}
     filter:none;
 }
 .five_page .sns_design .sub_sns {
-    position: absolute;
+    position: fixed;
     z-index:809;
     top:50%;
     left:50%;
